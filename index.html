@@ -1,0 +1,350 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>1er Página La Conferencia</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link href="compra-tickets.html">
+
+    <style>
+
+      :root {
+        --color-header-fecha-btn: #353a40;
+        --color-verde-btn: #29a744;
+        --color-js: #ffc008;
+        --color-react: #17a2b9;
+      }
+
+      header {
+        position: relative;
+      }
+
+      #codoacodo {
+        min-width: 70px;
+        height: auto;
+      }
+
+      #color-header {
+        background: var(--color-header-fecha-btn);
+      }
+
+      #imagen-bsas {
+        filter: opacity(.5);
+        width: auto;
+      }
+
+      #primer-texto { 
+        display: inline-block;
+        width: 90%;
+        padding-top: 20%;
+        max-height: 100px;
+      }
+
+      #color-verde-btn {
+        background: var(--color-verde-btn);
+        color: #fff;
+      }
+
+      #cono-oradores {
+        margin-top: 15px;
+        margin-bottom: 30px;
+        align-items: center;
+      }
+
+      #color-js1 {
+        background: var(--color-js);
+        color: #000;
+      }
+
+      #color-react1 {
+        background: var(--color-react);
+        color: #fff;
+      }
+
+      #color-js2 {
+        background: var(--color-js);
+        color: #000;
+      }
+
+      #color-react2 {
+        background: var(--color-react);
+        color: #fff;
+      }
+
+      #lugar-fecha {
+        border-top: 1px;
+      }
+
+      #color-fecha {
+        background: var(--color-header-fecha-btn);
+        color: #fff;
+      }
+
+      #honolulu-img {
+        min-height: 600px;
+        width: auto;
+        min-width: 800px;
+      }
+
+      #color-btn {
+        background: var(--color-header-fecha-btn);
+        color: #fff;
+      }
+
+      #conv-orador {
+        align-content: center;
+      }
+
+      #card-img-top {
+        grid: minmax(100px 300px); 
+        max-width: 400px;
+        margin: auto;
+      }
+      
+      #texto-img {
+        max-width: 400px; 
+        display: inline-block;
+      }
+      
+      #abajo-img{
+        max-width: 400px; 
+        margin:auto; 
+        margin-top: 50px;
+      }
+
+      u {    
+        border-bottom: 1.5px dotted #000;
+        text-decoration: none;
+      }
+      
+      #form-orador {
+        margin-left: 34%;
+      }
+
+      #color-enviar {
+        background-color: rgb(150, 201, 62);
+        color: #fff;
+      }
+      
+      footer {
+        text-align: center; 
+        background: linear-gradient(to right,#1c3643 ,#1f5170 );
+      } 
+
+      #footer {
+        padding-left: 40px; 
+        padding-right: 40px; 
+        padding-bottom: 20px; 
+        color: white; 
+        text-decoration: none;
+      }
+
+    </style>
+
+  </head>
+
+  <body>
+
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark p-2" id="color-header">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="codoacodo.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top" id="codoacodo">
+            Conf Bs As
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">La conferencia</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#cono-oradores">Los oradores</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#lugar-fecha">El lugar y la fecha</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#conv-orador">Conviértete en orador</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-success" href="compra-tickets.html">Comprar tickets</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+
+      <section class="container-fluid alaign-self-center" id="conf-bs-as">
+        <div class="text-end">
+          <div class="card text-bg-dark">
+            <img src="ba1.jpg" class="card-img-fluid" id="imagen-bsas">
+            <div class="card-img-overlay" id="primer-texto">
+              <h5 class="card-title">Conf Bs As</h5>
+              <p class="card-text mb-3 fs-6">
+                Bs As llega por primera vez a la Argentina. Un evento para compartir con<br>
+                nuestra comunidad el conocimiento y experiencia de los expertos que<br>
+                estan creando el futuro de internte. Ven a conocer a miembros del<br>
+                evento, otro estudiante de Codo a Codo y oradores primer<br>
+                nivel que tenemos para ti. Te esperamos!
+              </p>
+              <a href="#" class="btn border" style="color: white;">Quiero ser orador</a>
+              <a href="#" class="btn" id="color-verde-btn">Comprar tickets</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <section class="container" id="cono-oradores">
+        
+        <div class="text-center">
+          <h6>
+            CONOCE A LOS
+          </h6>
+          <h3>
+            <b>ORADORES</b>
+          </h3>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+
+          <div class="col"  id="abajo-img">
+            <div class="card h-100">
+              <img src="steve.jpg" class="card-img-top" id="card-img-top">
+              <div class="card-body">
+                <span class="badge text-bg" id="color-js1">JavaScript</span>
+                <span class="badge text-bg" id="color-react1">React</span>
+                <h5 class="card-title">Steve Jobs</h5>
+                <p class="card-text" id="texto-img">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum dicta dolores debitis vero possimus, eligendi quia itaque rerum magni animi quidem pariatur sunt. Eius et sit nesciunt consequuntur veniam hic!
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col" id="abajo-img">
+            <div class="card h-100">
+              <img src="bill.jpg" class="card-img-top" id="card-img-top">
+              <div class="card-body">
+                <span class="badge text-bg" id="color-js2">JavaScript</span>
+                <span class="badge text-bg" id="color-react2">React</span>
+                <h5 class="card-title">Bill Gates</h5>
+                <p class="card-text" id="texto-img">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt adipisci, architecto exercitationem eaque reprehenderit quod? Totam aperiam rem similique eum necessitatibus vero, inventore id voluptas, quibusdam natus error itaque facilis?
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col"  id="abajo-img">
+            <div class="card h-100">
+              <img src="ada.jpeg" class="card-img-top" id="card-img-top">
+              <div class="card-body">
+                <span class="badge text-bg-secondary">Negocios</span>
+                <span class="badge text-bg-danger">Startups</span>
+                <h5 class="card-title">Ada Lovelace</h5>
+                <p class="card-text" id="texto-img">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia eaque sapiente itaque numquam perspiciatis eveniet repellendus? Nisi doloremque voluptatum sit iusto! Dolores voluptates, quaerat distinctio unde laborum asperiores eum dignissimos?
+                </p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </section>
+
+      <section id="lugar-fecha">
+        <div class="mb-3">
+          <div class="row g-1">
+            <div class="col-12 col-md-6">
+              <img src="honolulu.jpg" class="img-fluid start" id="honolulu-img">
+            </div>
+            <div class="col-12 col-md-6 p-3" id="color-fecha">
+              <div class="col">
+                <h5 class="title fs-2">
+                  Bs As - Octubre
+                </h5>
+                <p class="col fs-5">
+                  Buenos Aires es la provincia y localidad más grande del estado de Argentina, en los Estados Unidos. Honolulu es la
+                  más sureña de entre las principales ciudades estadounidenses. Aunque el nombre de Honolulu se refiere al área
+                  urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu han formado una ciudad-
+                  condado consolidada que cubre toda la ciudad (aproximadamente 600 km<sup>2</sup> de superficie).
+                </p>
+                <a href="#" class="btn btn-dark border" id="color-btn">Conocé más</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="conv-orador">
+
+        <div class="text-center">
+          <h6>CONVIERTÉTE EN UN</h6>
+          <h3><b>ORADOR</b></h3>
+          <p>
+            Anótate como orador para dar una <u>charla ignite</u>. Cuéntanos de qué quieres hablar!
+          </p>
+        </div>
+        <div class="justify-content-center align-self-center" id="form-orador">
+          <div class="row pt-3 g-3 align-self-center w-50 mb-3">
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
+            </div>
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name">
+            </div>
+          </div>
+          <div class="row pt-3 g-0 align-self-center w-50 mb-3">
+            <textarea class="form-control" placeholder="Sobre qué quieres hablar?" id="floatingTextarea"></textarea>
+            <p>
+              Recuerda incluir un título para tu charla
+            </p>
+          </div>
+          <div class="col">
+            <button type="submit" class="btn text-light mb-3 w-50 align-self-center text-center" id="color-enviar">Enviar</button>
+          </div>
+        </div>
+
+      </section>
+      
+    </main>
+
+    <footer>
+
+        <ul class="nav justify-content-center d-flex align-items-center">
+            <li class="nav-item">
+              <a class="nav-link" id="footer">Preguntas <br>frecuentes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="footer">Contactanos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"id="footer">Prensa</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="footer">Conferencias</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="footer">Terminos y <br>condiciones</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="footer">Privacidad</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="footer">Estudiantes</a>
+            </li>
+        </ul>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  
+  </body>
+</html>
